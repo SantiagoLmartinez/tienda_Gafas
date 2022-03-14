@@ -39,7 +39,7 @@ body{margin: 0;}
     /* flex: 100% ; */
     width: 100%;
     padding: 1em;
-    margin-left: -100%;
+    /* margin-left: -100%; */
     transition: all 0.4s;
 
 }
@@ -67,9 +67,10 @@ body{margin: 0;}
 }
 
 .mostrar{
-    margin-left: 0;
+    /* margin-left: 0; */
+    display: none;
 }
-.mostrarSubMenu{
+.mostrar2{
     height: 130px;
 }
 

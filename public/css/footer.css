@@ -1,7 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-
+.pageContainer{
+    position: relative;
+}
+/* FALTA HACER QUE FOOTER ESTE FIXED BOTTOM */
 .footer{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     background: #333;
